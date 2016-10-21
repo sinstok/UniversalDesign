@@ -1,0 +1,311 @@
+#page {
+    padding: 10px;
+    background-color: #EDEDED;
+}
+
+body {
+    margin-right: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+header {
+    line-height: 15.6px;
+    font-size: 12px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+#header-container .utility-bar {
+    width: 100%;
+    background-color: #fff;
+    position: relative;
+    height: auto
+}
+
+#header-container .utility-bar .logo-container {
+    width: auto
+}
+
+#header-container .logo-container .logo-box {
+    float: left;
+    cursor: pointer
+}
+
+#header-container .logo-container h1, #header-container .logo-container h2 {
+    float: left;
+    margin: 0;
+    padding: 0;
+    color: #555;
+    position: absolute
+}
+
+#header-container .logo-box span {
+    float: left;
+    zoom: 1;
+    background-repeat: no-repeat
+}
+
+#header-container .logo-box .left-corner {
+    background-image: url("//images.hertz.com/rac/misc/refresh09/left_angle.gif")
+}
+
+#header-container .logo-box .right-corner {
+    background-image: url("//images.hertz.com/rac/misc/refresh09/right_angle.gif")
+}
+
+#header-container .logo-box img {
+    float: left;
+    margin: 0;
+    background-color: #fff229
+}
+
+#header-container .utility-bar .logo-container {
+    height: 38px;
+    position: static
+}
+
+#header-container .logo-container .logo-box {
+    height: 38px;
+    width: 112px
+}
+
+#header-container .logo-container h1, #header-container .logo-container h2 {
+    font-size: 8pt;
+    top: 13px;
+    left: 112px;
+    width: 45%
+}
+
+#header-container .logo-box span {
+    width: 25px;
+    height: 38px
+}
+
+#header-container .logo-box .left-corner, #header-container .logo-box .right-corner {
+    background-position: -37px 0
+}
+
+#header-container .logo-box img {
+    height: 12px;
+    padding: 13px 8px;
+    width: 46px
+}
+
+header {
+
+}
+
+@media only screen and (min-width: 1248px) {
+    body {
+        min-width: 1248px
+    }
+
+    #container {
+        width: 1248px;
+        margin: 0 auto;
+        -webkit-box-shadow: #444 0px 0px 70px;
+        -moz-box-shadow: #444 0px 0px 70px;
+        box-shadow: #444 0px 0px 70px;
+        border-left: 1px solid #CDCDCD;
+        border-right: 1px solid #CDCDCD
+    }
+
+    #container.animated-background {
+        border-left: 0px;
+        border-right: 0px;
+        margin-left: 327.5px;
+        margin-right: 327.5px;
+    }
+
+    #container.animated-background {
+        background: none;
+        border-left: 0px;
+        border-right: 0px
+    }
+
+    #container.animated-background #page {
+        padding: 0px
+    }
+
+    #header-container {
+        *z-index: 2;
+        *position: relative
+    }
+
+    #header-container .utility-bar {
+        height: 68px;
+        font-size: 9pt
+    }
+
+    #header-container .utility-bar .mob-nav {
+        display: none
+    }
+
+    #header-container .utility-bar .logo-container {
+        height: 68px;
+        position: absolute;
+        left: 0;
+        bottom: 0
+    }
+
+
+
+    #header-container .logo-container .logo-box {
+        height: 68px;
+        width: 166px
+    }
+
+    #header-container .logo-container h1, #header-container .logo-container h2 {
+        display: none;
+        font-size: 8pt;
+        top: 30px;
+        left: 160px;
+        width: 210px
+    }
+
+    #header-container .logo-box span {
+        width: 42px;
+        height: 68px
+    }
+
+    #header-container .logo-box .left-corner, #header-container .logo-box .right-corner {
+        background-position: -20px 0
+    }
+
+    #header-container .logo-box img {
+        height: 22px;
+        padding: 23px 0;
+        width: 82px
+    }
+
+    #nav-container .nav-menu {
+        background-color: #6e6d72;
+        background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #6e6d72), color-stop(100%, #4e4e50));
+        background-image: -webkit-linear-gradient(top, #6e6d72 0%, #4e4e50 100%);
+        background-image: -moz-linear-gradient(top, #6e6d72 0%, #4e4e50 100%);
+        background-image: -o-linear-gradient(top, #6e6d72 0%, #4e4e50 100%);
+        background-image: linear-gradient(top, #6e6d72 0%, #4e4e50 100%);
+        display: block;
+        height: 50px;
+        width: 100%;
+        -webkit-box-shadow: #6e6d72 0px 0px 2px;
+        -moz-box-shadow: #6e6d72 0px 0px 2px;
+        box-shadow: #6e6d72 0px 0px 2px
+    }
+
+    #nav-container ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        float: right;
+        width: auto;
+        *height: 50px;
+        height: 50px \0;
+        border-collapse: collapse;
+        *z-index: 1
+    }
+
+    #nav-container li {
+        float: left;
+        border-left: 1px solid #000
+    }
+
+    #nav-container li a, .dropbtn {
+        display: inline-block;
+        text-align: center;
+        padding: 14px 16px;
+        padding-top: 17px;
+        text-decoration: none;
+        *display: block;
+        vertical-align: middle;
+        *line-height: 3.3em;
+        font-size: 11pt;
+        *width: auto;
+        color: #fff;
+        zoom: 1;
+        border-left: 1px solid #737373
+    }
+
+    #nav-container li a:hover, .dropdown:hover .dropbtn {
+        background-color: #000
+    }
+
+    #nav-container li.dropdown {
+        display: inline-block;
+    }
+
+    #nav-container .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        z-index: 6;
+    }
+
+    #nav-container .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+    }
+
+    #nav-container .dropdown-content a:hover {
+        background-color: #f1f1f1
+    }
+
+    #nav-container .dropdown:hover .dropdown-content {
+        display: block;
+    }
+
+    #header-container .utility-bar {
+        height: 98px
+    }
+
+    #header-container .utility-bar .logo-container {
+        height: 98px
+    }
+
+    #header-container .utility-bar .pos-container, #header-container .utility-bar .emember-container {
+        height: 49px
+    }
+
+    #header-container .utility-bar .pos-container ul {
+        padding-top: 15px
+    }
+
+    #header-container .logo-container .logo-box {
+        width: 357px;
+        height: 98px
+    }
+
+    #header-container .logo-container h1, #header-container .logo-container h2 {
+        display: block;
+        font-size: 9pt;
+        top: 41px;
+        left: 340px;
+        zoom: 1;
+        width: 300px
+    }
+
+    #header-container .logo-box span {
+        width: 62px;
+        height: 98px
+    }
+
+    #header-container .logo-box .left-corner, #header-container .logo-box .right-corner {
+        background-position: 0 0
+    }
+
+    #header-container .logo-box img {
+        padding: 33px 56px;
+        width: 121px;
+        height: 32px
+    }
+
+    #res-itinerary-page-container {
+        position: relative
+    }
+}

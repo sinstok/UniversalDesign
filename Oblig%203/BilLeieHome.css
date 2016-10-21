@@ -1,0 +1,33 @@
+#res-home-page .res-form section {
+    padding: 15px
+}
+
+
+@media only screen and (min-width: 1248px) {
+    #container {
+        border-left: 1px solid #CDCDCD;
+        border-right: 1px solid #CDCDCD
+    }
+
+    #res-home-page {
+        height: 768px;
+        position: relative;
+    }
+
+    #res-home-page .slides {
+        width: 50%;
+        height: 750px;
+        background-color: #000;
+        float: right;
+    }
+
+    #res-home-page .res-form {
+        background-color: transparent;
+        background-image: url("//images.hertz.com/rac/misc/white85p_400x400.png");
+        width: 364px;
+        position: absolute;
+        left: 10px;
+        top: 10px;
+        z-index: 5
+    }
+}
