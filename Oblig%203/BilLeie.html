@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="BilLeieHome.css" media="all">
     <link rel="stylesheet" href="home.css" media="all">
     <!--<link rel="stylesheet" href="style.css" media="all">-->
-    <link rel="stylesheet" href="Test3.css" media="all">
+    <link rel="stylesheet" href="BilLeieGlobal.css" media="all">
 </head>
 <body>
 <div id="container" class="animated-background">
@@ -63,8 +63,8 @@
     <div id="page">
         <div id="res-itinerary-page-container">
             <div id="res-home-page">
-                <!--<section class="res-form">-->
-                <form method="get" action="OrdreSide.html" class="res-form">
+                <section class="res-form">
+                    <!--<form method="get" action="OrdreSide.html" class="res-form">-->
                     <nav>
                         <table cellspacing="0" cellpadding="0" border="0">
                             <tbody>
@@ -354,6 +354,8 @@
                                             <form>
                                                 <!--<input type="submit" value="Bestill bil" class="login-submit primary append-bottom"/>-->
                                                 <button class="login-submit primary append-bottom"
+                                                        formaction="OrdreSide.html"
+                                                        formtarget="_blank"
                                                         tabindex="21">Bestill bil
                                                 </button>
                                             </form>
@@ -365,7 +367,8 @@
                         <div id="hp-overlays" class="hidden"></div>
                     </section>
                     <section id="rmc-section" class="section hidden"></section>
-                </form>
+                </section>
+                <!--</form>-->
             </div>
         </div>
     </div>
