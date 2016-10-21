@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Test</title>
+
+    <link rel="stylesheet" href="BilLeieStyle.css" media="all">
+    <link rel="stylesheet" href="BilLeieHome.css" media="all">
+    <link rel="stylesheet" href="home.css" media="all">
+    <!--<link rel="stylesheet" href="style.css" media="all">-->
+    <link rel="stylesheet" href="BilLeieGlobal.css" media="all">
+</head>
+<body>
+<div id="container" class="animated-background">
+    <header>
+        <div id="header-container">
+            <section class="utility-bar">
+                <article class="logo-container">
+                    <div class="logo-box">
+                        <span class="left-corner"></span>
+                        <a href="BilLeie.html"><img src="imgs/hertz-car-rental-logo.png" alt="Hertz logo"
+                                                    tabindex="1"></a>
+                        <span class="right-corner"></span>
+                    </div>
+                </article>
+            </section>
+        </div>
+        <nav id="nav-container">
+            <article class="nav-menu">
+                <ul>
+                    <li class="dropdown">
+                        <a class="active" href="#home" tabindex="2">Priser og reservasjoner</a>
+                        <div class="dropdown-content">
+                            <a href="1">Link 1</a>
+                            <a href="2">Link 2</a>
+                            <a href="3">Link 3</a>
+                        </div>
+                    </li>
+                    <li><a href="#news" tabindex="3">spesialtilbud</a></li>
+                    <li><a href="#" tabindex="4">Lokasjoner</a></li>
+                    <li><a href="#news" tabindex="5">Bilguid</a></li>
+                    <li><a href="#" class="dropbtn" tabindex="6">Varebil</a></li>
+                    <li class="dropdown">
+                        <a class="active" href="#home" tabindex="7">Produkter og tjenester</a>
+                        <div class="dropdown-content">
+                            <a href="4">Link 1</a>
+                            <a href="5">Link 2</a>
+                            <a href="6">Link 3</a>
+                        </div>
+                    </li>
+                    <li class="dropdown">
+                        <a class="active" href="#home" tabindex="8">Hertz lojalitetsprogram</a>
+                        <div class="dropdown-content">
+                            <a href="7">Link 1</a>
+                            <a href="8">Link 2</a>
+                            <a href="9">Link 3</a>
+                        </div>
+                    </li>
+                </ul>
+            </article>
+        </nav>
+    </header>
+    <div id="page">
+        <div id="res-itinerary-page-container">
+            <div id="res-home-page">
+                <section class="res-form">
+                    <!--<form method="get" action="OrdreSide.html" class="res-form">-->
+                    <nav>
+                        <table cellspacing="0" cellpadding="0" border="0">
+                            <tbody>
+                            <tr>
+                                <td id="gaq-tab" class="gaq-rmc-tabs selected" tabindex="9">
+                                    <h2>Bestill en bil</h2>
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </nav>
+                    <section id="gaq-section" class="section ">
+                        <form method="post" id="res-form" name="resForm">
+                            <div class="location-dates-arrival">
+                                <div class="location clearfix">
+                                    <figure class="icons-num1">&nbsp;</figure>
+                                    <article>
+
+                                        <div id="itn-location">
+
+                                            <div>
+                                                <h3>Sted eller flyplasskode</h3>&nbsp;
+                                                <span>(by, land eller flyplasskode)</span>
+                                            </div>
+
+
+                                            <div class="clearfix">
+                                                <div class="fts"><input type="text" class="ww-input"
+                                                                        id="pickup-location" name="pickupLocation"
+                                                                        autocorrect="off" autocomplete="off"
+                                                                        value="" tabindex="10"></div>
+                                                <div id="delivery-infolink" class="dnc-link hidden "><span
+                                                        class="icons-info_sm" onclick="">&nbsp;</span></div>
+                                                <!--<div id="pickup-geo-loc" class="icons-location" onclick="">&nbsp;</div>-->
+                                            </div>
+                                            <a class="find-location" href="#" tabindex="11">Finn lokasjon</a>
+                                        </div>
+                                    </article>
+                                </div>
+                                <div class="date-time clearfix">
+                                    <figure class="icons-num2">&nbsp;</figure>
+                                    <article id="itn-date-time">
+                                        <div class="pickup-date">
+                                            <div><h3>Hentes:</h3></div>
+                                            <div id="pickup-container" class="clearfix">
+                                                <input type="date" class="date" tabindex="14">
+                                                <div id="pickup-time" class="time-box"><select name="pickupTime"
+                                                                                               tabindex="15">
+                                                    <option value="00:00">00:00</option>
+                                                    <option value="00:30">00:30</option>
+                                                    <option value="01:00">01:00</option>
+                                                    <option value="01:30">01:30</option>
+                                                    <option value="02:00">02:00</option>
+                                                    <option value="02:30">02:30</option>
+                                                    <option value="03:00">03:00</option>
+                                                    <option value="03:30">03:30</option>
+                                                    <option value="04:00">04:00</option>
+                                                    <option value="04:30">04:30</option>
+                                                    <option value="05:00">05:00</option>
+                                                    <option value="05:30">05:30</option>
+                                                    <option value="06:00">06:00</option>
+                                                    <option value="06:30">06:30</option>
+                                                    <option value="07:00">07:00</option>
+                                                    <option value="07:30">07:30</option>
+                                                    <option value="08:00">08:00</option>
+                                                    <option value="08:30">08:30</option>
+                                                    <option value="09:00">09:00</option>
+                                                    <option value="09:30">09:30</option>
+                                                    <option value="10:00">10:00</option>
+                                                    <option value="10:30">10:30</option>
+                                                    <option value="11:00">11:00</option>
+                                                    <option value="11:30">11:30</option>
+                                                    <option value="12:00">12:00</option>
+                                                    <option value="12:30">12:30</option>
+                                                    <option value="13:00">13:00</option>
+                                                    <option value="13:30">13:30</option>
+                                                    <option value="14:00">14:00</option>
+                                                    <option value="14:30">14:30</option>
+                                                    <option selected="selected" value="15:00">15:00</option>
+                                                    <option value="15:30">15:30</option>
+                                                    <option value="16:00">16:00</option>
+                                                    <option value="16:30">16:30</option>
+                                                    <option value="17:00">17:00</option>
+                                                    <option value="17:30">17:30</option>
+                                                    <option value="18:00">18:00</option>
+                                                    <option value="18:30">18:30</option>
+                                                    <option value="19:00">19:00</option>
+                                                    <option value="19:30">19:30</option>
+                                                    <option value="20:00">20:00</option>
+                                                    <option value="20:30">20:30</option>
+                                                    <option value="21:00">21:00</option>
+                                                    <option value="21:30">21:30</option>
+                                                    <option value="22:00">22:00</option>
+                                                    <option value="22:30">22:30</option>
+                                                    <option value="23:00">23:00</option>
+                                                    <option value="23:30">23:30</option>
+                                                </select></div>
+                                            </div>
+                                        </div>
+                                        <div class="dropoff-date">
+                                            <div class="date-header"><h3>Leveres:</h3></div>
+                                            <div id="dropoff-container" class="clearfix">
+                                                <input type="date" class="date" tabindex="17">
+                                                <div id="dropoff-time" class="time-box"><select name="dropoffTime"
+                                                                                                tabindex="18">
+                                                    <option value="00:00">00:00</option>
+                                                    <option value="00:30">00:30</option>
+                                                    <option value="01:00">01:00</option>
+                                                    <option value="01:30">01:30</option>
+                                                    <option value="02:00">02:00</option>
+                                                    <option value="02:30">02:30</option>
+                                                    <option value="03:00">03:00</option>
+                                                    <option value="03:30">03:30</option>
+                                                    <option value="04:00">04:00</option>
+                                                    <option value="04:30">04:30</option>
+                                                    <option value="05:00">05:00</option>
+                                                    <option value="05:30">05:30</option>
+                                                    <option value="06:00">06:00</option>
+                                                    <option value="06:30">06:30</option>
+                                                    <option value="07:00">07:00</option>
+                                                    <option value="07:30">07:30</option>
+                                                    <option value="08:00">08:00</option>
+                                                    <option value="08:30">08:30</option>
+                                                    <option value="09:00">09:00</option>
+                                                    <option value="09:30">09:30</option>
+                                                    <option value="10:00">10:00</option>
+                                                    <option value="10:30">10:30</option>
+                                                    <option value="11:00">11:00</option>
+                                                    <option value="11:30">11:30</option>
+                                                    <option value="12:00">12:00</option>
+                                                    <option value="12:30">12:30</option>
+                                                    <option value="13:00">13:00</option>
+                                                    <option value="13:30">13:30</option>
+                                                    <option value="14:00">14:00</option>
+                                                    <option value="14:30">14:30</option>
+                                                    <option selected="selected" value="15:00">15:00</option>
+                                                    <option value="15:30">15:30</option>
+                                                    <option value="16:00">16:00</option>
+                                                    <option value="16:30">16:30</option>
+                                                    <option value="17:00">17:00</option>
+                                                    <option value="17:30">17:30</option>
+                                                    <option value="18:00">18:00</option>
+                                                    <option value="18:30">18:30</option>
+                                                    <option value="19:00">19:00</option>
+                                                    <option value="19:30">19:30</option>
+                                                    <option value="20:00">20:00</option>
+                                                    <option value="20:30">20:30</option>
+                                                    <option value="21:00">21:00</option>
+                                                    <option value="21:30">21:30</option>
+                                                    <option value="22:00">22:00</option>
+                                                    <option value="22:30">22:30</option>
+                                                    <option value="23:00">23:00</option>
+                                                    <option value="23:30">23:30</option>
+                                                </select></div>
+                                            </div>
+                                        </div>
+
+                                        <input id="pickup-date" name="pickupDay" value="" type="hidden">
+                                        <input id="dropoff-date" name="dropoffDay" value="" type="hidden">
+                                    </article>
+                                </div>
+                                <div id="itn-age">
+                                    <br>
+                                    <div class="clearfix">
+                                        <figure class="icons-num3">&nbsp;</figure>
+                                        <article id="itn-age-info">
+                                            <div><strong>Din alder ved hentetidspunktet <font color="blue"
+                                                                                              size="4"><b>*</b></font></strong><span
+                                                    id="age-info-link" class="icons-info_sm"
+                                                    onclick="">&nbsp;</span>
+                                            </div>
+                                            <div id="age-dropdown">
+                                                <select id="ageSelector" name="ageSelector" tabindex="19">
+                                                    <option value="">Din alder ved hentetidspunktet *</option>
+
+
+                                                    <option value="70">
+                                                        70+ **
+                                                    </option>
+
+                                                    <option value="30">
+                                                        30-69
+                                                    </option>
+
+                                                    <option value="29">
+                                                        29
+                                                    </option>
+
+                                                    <option value="28">
+                                                        28
+                                                    </option>
+
+                                                    <option value="27">
+                                                        27
+                                                    </option>
+
+                                                    <option value="26">
+                                                        26
+                                                    </option>
+
+                                                    <option value="25">
+                                                        25
+                                                    </option>
+
+                                                    <option value="24">
+                                                        24
+                                                    </option>
+
+                                                    <option value="23">
+                                                        23
+                                                    </option>
+
+                                                    <option value="22">
+                                                        22
+                                                    </option>
+
+                                                    <option value="21">
+                                                        21
+                                                    </option>
+
+                                                    <option value="20">
+                                                        20
+                                                    </option>
+
+                                                    <option value="19">
+                                                        19
+                                                    </option>
+
+                                                    <option value="18">
+                                                        18
+                                                    </option>
+
+
+                                                </select>
+                                            </div>
+                                        </article>
+                                    </div>
+                                </div>
+                                <hr>
+                            </div>
+
+                            <div id="itn-vehicle-type">
+                                <div class="row">
+                                    <div><strong>Biltype:</strong><span id="fleet-info" class="icons-info_sm"
+                                                                        onclick="">&nbsp;</span></div>
+
+                                    <div id="car-type-display" class="clearfix">
+                                        <span class="value"></span>
+                                        <span class="icon icons-ft_arrow_down"></span>
+                                    </div>
+
+                                    <select id="car-type" name="selectedCarType" tabindex="20">
+
+
+                                        <option value="ACAR" selected="selected">
+                                            Vis alle
+                                        </option>
+
+                                        <option value="AFMY">
+                                            Family Collection
+                                        </option>
+
+                                        <option value="AGRN">
+                                            Green Collection
+                                        </option>
+
+                                        <option value="AFUN">
+                                            Fun Collection
+                                        </option>
+
+                                        <option value="AHPC">
+                                            Prestige Collection
+                                        </option>
+
+                                        <option value="ACGO">
+                                            Varebiler
+                                        </option>
+
+
+                                    </select>
+                                </div>
+                            </div>
+                            <div id="res-submit-btns">
+                                <div class="clearfix">
+                                    <div class="home-btn-group prepend-top">
+                                        <div class="button">
+                                            <form>
+                                                <!--<input type="submit" value="Bestill bil" class="login-submit primary append-bottom"/>-->
+                                                <button class="login-submit primary append-bottom"
+                                                        formaction="OrdreSide.html"
+                                                        formtarget="_blank"
+                                                        tabindex="21">Bestill bil
+                                                </button>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                        <div id="hp-overlays" class="hidden"></div>
+                    </section>
+                    <section id="rmc-section" class="section hidden"></section>
+                </section>
+                <!--</form>-->
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
